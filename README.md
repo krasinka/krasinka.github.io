@@ -1,2 +1,0 @@
-krasinka.github.io
-==================
