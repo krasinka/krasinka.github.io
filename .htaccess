@@ -1,0 +1,9 @@
+Options +FollowSymLinks
+RewriteEngine On
+
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteCond %{SCRIPT_FILENAME} !-f
+
+#code for About us Page
+RewriteRule ^home(\d+)*$ ./index.html$1
+RewriteRule ^o-nas(\d+)*$ ./o-nas.html$1
